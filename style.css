@@ -32,10 +32,10 @@ html {
 .navbar a {
     text-decoration:none;
     color: black;
-    font-size: clamp(1px, 2vw, 25px);
+    font-size: clamp(1px, 3vw, 40px);
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 4px 6px;
+    padding: 8px 10px;
 
     display: inline-flex;
     min-width: 0;
@@ -60,7 +60,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
 
-    font-size:clamp(1px, 7vw, 80px);
+    font-size:clamp(1px, 9vw, 100px);
     color: black;
 
     font-weight: bold;
@@ -70,13 +70,14 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 95px;
 }
 .btn {
     padding: 10px 20px;
     background-color: gray;
     color: rgb(18, 17, 17);
     text-decoration: none;
-    font-size: clamp(1px, 2.5vw, 30px);
+    font-size: clamp(1px, 1.5vw, 40px);
     border-radius: 6px;
     font: weight 500px;;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +87,7 @@ html {
 }
 hr {
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     border-top: 2px solid black;
     width: 100%;
 }
@@ -94,7 +95,7 @@ hr {
 /* PROJECTS NAVBAR */
 .project-header {
     text-align: center;
-    font-size: clamp(1px, 6vw,80px);
+    font-size: clamp(1px, 9vw,95px);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5%;
@@ -108,12 +109,14 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    font-size: clamp(1px, 4vw,80px);
+    padding: 45px;
+    font-size: clamp(1px, 7vw,70px);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color: black;
+    white-space: nowrap;
+    
    
 }
 .projects-navbar a:hover {
@@ -122,7 +125,7 @@ hr {
 }
 
 
-.kooth-header, .taf-header, .wise-header
+.kooth-header,.wise-header
 , .wildfell-header, .nhs-header,.darkcloud-header,.contact-header, .aboutme-header {    
     margin-top: 80px;
     margin-bottom: 80px;
@@ -130,24 +133,50 @@ hr {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     background-color: gray;
-    font-size: clamp(1px, 6vw, 80px);
+    width: 100%;
+    font-size: clamp(1px, 8vw, 85px);
+    padding: 10px;
+    white-space: nowrap;
+}
+.taf-header{
+     text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    width: 100%;
+    font-size: clamp(1px, 6.5vw, 85px);
+    padding: 10px;
+    white-space: nowrap;
+     margin-bottom: 80px;
+}
+
+
+.image-row-1,.image-row-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-evenly;
+  align-items: first baseline;
 
 }
 
-.kooth-image, .qwell-image, .taf-image, .tb-image {
-    max-width: 40%;
-    height:auto;     
-    display: inline-flex;
-
+.image-row-1 img ,.image-row-2 img{
+  width: 30%;         
+  height:auto;
+  object-fit: contain;
+  flex-shrink: 1;
 }
+
+
+
 .kooth-description,.tb-descripton, .nhs-desc, .wise-desc, .wildfell-desc,.aboutme-description,.darkcloud-desc{
 
     text-align: center;
     font-weight: lighter;
     color: rgb(26, 25, 25);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
-    font-size: clamp(1px, 2.5vw, 80px);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 50px;
+    font-size: clamp(1px, 3.5vw, 45px);
     line-height: 1.5;
 
 }
@@ -191,7 +220,7 @@ hr {
 .wildfell-image {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 65%;
     max-width: 100%;
 }
 .dark-wrap {
@@ -213,6 +242,7 @@ hr {
 }
 .contact-description{
     font-size: clamp(1px, 4vw, 25px);
+    margin: 20px;
 }
 
 .contact-description a {
@@ -223,6 +253,7 @@ hr {
 .linkedinprofile {
     font-size: clamp(1px, 4vw, 25px);
     font-weight: lighter;
+    margin: 20px;
 }
 
 .footerend {
@@ -233,65 +264,68 @@ hr {
 @media (max-width:600px) {
     
         .navbar {
-        padding: 5px;
-        gap:6px;
+        padding: 4px;
+        gap:2px;
     }
     .navbar a {
-        padding: 5px 8px;
+        padding: 1px 6px;
         max-width:fit-content;
     }
     .myname{
-        max-height: 350px;
+        max-height: 550px;
+    }
+    .button-container{
+        margin-bottom: 40px;
     }
     .btn {
         padding:5px 10px;
+        font-size: 3.5vw;
     }
-    .taf-header,.kooth-header,.wise-header,.nhs-header,.contact-header,.aboutme-header,.wildfell-header,.project-header,.darkcloud-header{
+
+    .projects-navbar a {
+        padding: 35px;
+
+
+    }
+    .kooth-header,.wise-header,.nhs-header,.contact-header,.aboutme-header,.wildfell-header,.project-header,.darkcloud-header,.taf-header{
         margin-top: 20px;
         margin-bottom: 20px;
         
     }
     .kooth-description,.tb-descripton,.wildfell-desc,.wise-desc,.nhs-desc,.aboutme-description,.darkcloud-desc
     { 
-      margin:10px; 
-    }
-      
-    .tb-image,.taf-image,.kooth-image,.qwell-image{
-        display: inline-block;
-        height: auto;
-        width: 100%;
-        
-    }
-    .wildfell-image{
-    display: block;        
-    max-width: 100%;
-    margin: auto;
+      margin: 20px; 
+      font-size: 4.5vw;
+      padding: 30px;
     }
 
+    .image-row-1 img, .image-row-2 img {
+
+        width: 40%;
+    }
+    
+
+
     .nhs-wrap{
-        max-width: 60%;
+        max-width: 80%;
         height:50%;
     }
     .wise-wrap{
-        max-width: 30%;
+        max-width: 40%;
 
     
     }
 
     .dark-wrap{
-        max-width: 60%;
+        max-width: 80%;
         height: auto;
     }
-    
+    .footerend{
+        font-size: 2vw;
+    }
     hr {
         margin-top: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
        width: 100%;
        border:0.25px solid black;
-}
-}
-
-    
-
-    
-
+} }
