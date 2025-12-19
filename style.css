@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 /* NAVBAR */
@@ -32,7 +32,7 @@ html {
 .navbar a {
     text-decoration:none;
     color: black;
-    font-size: clamp(1px, 3vw, 40px);
+    font-size: clamp(1px, 3vw, 25px);
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     padding: 8px 10px;
@@ -110,23 +110,18 @@ hr {
     flex-direction: column;
     align-items: center;
     padding: 45px;
-    font-size: clamp(1px, 7vw,70px);
+    font-size: clamp(1px, 7vw,65px);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color: black;
     white-space: nowrap;
-    
-   
 }
 .projects-navbar a:hover {
     background-color: lightgray;
     cursor: pointer;
 }
-
-
-.kooth-header,.wise-header
-, .wildfell-header, .nhs-header,.darkcloud-header,.contact-header, .aboutme-header {    
+.kooth-header,.wise-header,.wildfell-header, .nhs-header,.darkcloud-header,.contact-header, .aboutme-header {    
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
@@ -149,27 +144,19 @@ hr {
     white-space: nowrap;
      margin-bottom: 80px;
 }
-
-
 .image-row-1,.image-row-2 {
   display: flex;
   flex-wrap: nowrap;
   justify-content:space-evenly;
   align-items: first baseline;
-
 }
-
 .image-row-1 img ,.image-row-2 img{
   width: 30%;         
   height:auto;
   object-fit: contain;
   flex-shrink: 1;
 }
-
-
-
 .kooth-description,.tb-descripton, .nhs-desc, .wise-desc, .wildfell-desc,.aboutme-description,.darkcloud-desc{
-
     text-align: center;
     font-weight: lighter;
     color: rgb(26, 25, 25);
@@ -178,7 +165,6 @@ hr {
     padding: 50px;
     font-size: clamp(1px, 3.5vw, 45px);
     line-height: 1.5;
-
 }
 
 .nhs-wrap {
@@ -198,7 +184,6 @@ hr {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.25);
 }
-
 .wise-wrap {
   position: relative;
   width: auto;
@@ -206,7 +191,6 @@ hr {
   margin: 0 auto;            
   aspect-ratio: 5/8; 
 }
-
 .wise-wrap iframe {
   position: absolute;
   top: 0;
@@ -216,7 +200,6 @@ hr {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.25);
 }
-
 .wildfell-image {
     display: block;
     margin: auto;
@@ -230,7 +213,6 @@ hr {
   margin: 0 auto;            
   aspect-ratio: 16/9;
 }
-
 .dark-wrap iframe {
   position: absolute;
   top: 0;
@@ -244,25 +226,21 @@ hr {
     font-size: clamp(1px, 4vw, 25px);
     margin: 20px;
 }
-
 .contact-description a {
     text-decoration: underline;
     font-size: clamp(1px, 4vw, 25px);
 }
-
 .linkedinprofile {
     font-size: clamp(1px, 4vw, 25px);
     font-weight: lighter;
     margin: 20px;
 }
-
 .footerend {
     text-align: center;
     font-size: 1vw;
 }
 
 @media (max-width:600px) {
-    
         .navbar {
         padding: 4px;
         gap:2px;
@@ -281,41 +259,29 @@ hr {
         padding:5px 10px;
         font-size: 3.5vw;
     }
-
     .projects-navbar a {
         padding: 35px;
-
-
     }
     .kooth-header,.wise-header,.nhs-header,.contact-header,.aboutme-header,.wildfell-header,.project-header,.darkcloud-header,.taf-header{
         margin-top: 20px;
         margin-bottom: 20px;
-        
     }
     .kooth-description,.tb-descripton,.wildfell-desc,.wise-desc,.nhs-desc,.aboutme-description,.darkcloud-desc
     { 
       margin: 20px; 
       font-size: 4.5vw;
-      padding: 30px;
+      padding: 25px;
     }
-
     .image-row-1 img, .image-row-2 img {
-
         width: 40%;
     }
-    
-
-
     .nhs-wrap{
         max-width: 80%;
         height:50%;
     }
     .wise-wrap{
         max-width: 40%;
-
-    
     }
-
     .dark-wrap{
         max-width: 80%;
         height: auto;
@@ -323,9 +289,21 @@ hr {
     .footerend{
         font-size: 2vw;
     }
-    hr {
+    .hr {
         margin-top: 50px;
         margin-bottom: 50px;
        width: 100%;
        border:0.25px solid black;
 } }
+
+    
+
+
+
+
+
+
+
+
+
+    
