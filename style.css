@@ -3,6 +3,7 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
+    font-family: Ariel, Helvetica, Sans-serif;
 }
 html {
     scroll-behavior:smooth;
@@ -34,7 +35,7 @@ html {
     color: black;
     font-size: clamp(1px, 3vw, 25px);
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+   
     padding: 8px 10px;
 
     display: inline-flex;
@@ -64,7 +65,7 @@ html {
     color: black;
 
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .button-container {
     display: flex;
@@ -80,7 +81,7 @@ html {
     font-size: clamp(1px, 1.5vw, 40px);
     border-radius: 6px;
     font: weight 500px;;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 .btn:hover {
     background-color: lightgray;
@@ -97,7 +98,7 @@ hr {
     text-align: center;
     font-size: clamp(1px, 9vw,95px);
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+   
     margin-bottom: 5%;
 }
 .projects-navbar {
@@ -112,7 +113,7 @@ hr {
     padding: 45px;
     font-size: clamp(1px, 7vw,65px);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: lighter;
     color: black;
     white-space: nowrap;
@@ -126,7 +127,6 @@ hr {
     margin-bottom: 80px;
     text-align: center;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: gray;
     width: 100%;
     font-size: clamp(1px, 8vw, 85px);
@@ -136,13 +136,12 @@ hr {
 .taf-header{
      text-align: center;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: gray;
     width: 100%;
     font-size: clamp(1px, 6.5vw, 85px);
     padding: 10px;
     white-space: nowrap;
-     margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 .image-row-1,.image-row-2 {
   display: flex;
@@ -160,7 +159,6 @@ hr {
     text-align: center;
     font-weight: lighter;
     color: rgb(26, 25, 25);
-    font-family:Arial, Helvetica, sans-serif;
     margin: 10px;
     padding: 50px;
     font-size: clamp(1px, 3.5vw, 45px);
@@ -307,3 +305,4 @@ hr {
 
 
     
+
